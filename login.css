@@ -1,0 +1,56 @@
+#picture img {
+    width: 5.5em;
+    align-items: center;
+    padding-top: 7em;
+}
+#picture{
+    display: flex;
+    justify-content: center;
+    height: 15em;
+}
+.container h2 {
+    margin-left: 48%;
+ }
+ .form {
+    width: 30%;
+    height: 28%;
+    margin-left:35% ;
+    padding: 1em;
+    background-color: rgb(242, 240, 240);
+}
+.form-group1, .form-group2{
+    margin-bottom: 1em; /* Aumenta lo spazio tra i gruppi di form */
+}
+.form-group1 label,  .form-group2 label{
+    display: inline;
+    margin-bottom: 0.5em;
+}
+.form-group1 input,  .form-group2 input {
+    width: 60%;
+    padding: 0.4em; /* Aumenta il padding per rendere gli input più grandi */
+    box-sizing: border-box;
+}
+.form-group1 input{
+margin-left: 1em;
+}
+.form-group2 input{
+    margin-left: 1.3em;
+}
+button {
+    padding: 0.4em;
+    font-size: 0.9em; /* Aumenta la dimensione del testo del bottone */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: grey;
+}
+.form a{    
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+}
+.form a:hover{    
+    text-decoration: underline;
+}
